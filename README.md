@@ -3,14 +3,47 @@ mynotes
 
 This is My Notes.
 
-nodejs
+Nodejs
 -------
 
     none
 
-javascript
+Javascript
 -------
 
 	none
 
+CSS
+-------
 
+	none
+
+Git
+-------
+    
+	none
+
+Html5
+-------
+
+	none
+
+CSS3
+------
+	
+	none
+
+Linux
+------
+	
+	none
+
+Mobile
+------
+
+	none
+
+Compatibility
+------
+	
+	none
