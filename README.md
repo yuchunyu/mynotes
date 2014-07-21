@@ -21,7 +21,7 @@ CSS
 Git
 -------
     
-	[readToGit.md](/git/readToGit.md)
+	git常用命令 readToGit.md
 
 Html5
 -------
