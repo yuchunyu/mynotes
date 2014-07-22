@@ -22,6 +22,7 @@
 forever使用说明
 ------
 启动相关
+------
 	// 1. 简单的启动
 	forever start app.js
 	// 2. 指定forever信息输出文件，当然，默认它会放到~/.forever/forever.log
@@ -36,13 +37,16 @@ forever使用说明
 	forever start -w app.js
 
 文件改动监听并自动重启
+------
 	// 1. 监听当前文件夹下的所有文件改动（不太建议这样）
 	forever start -w app.js
 
 显示所有运行的服务
+------
 	forever list
 
 停止操作
+------
 	// 1. 停止所有运行的node App
 	forever stopall
 	// 2. 停止其中一个node App
@@ -52,11 +56,13 @@ forever使用说明
 	forever stop [id]
 
 重启操作
+------
 	重启操作跟停止操作保持一致。
 	// 1. 启动所有
 	forever restartall
 
 开发和线上建议配置
+------
 	// 开发环境下
 	NODE_ENV=development forever start -l forever.log -e err.log -a app.js
 	// 线上环境下
@@ -64,6 +70,7 @@ forever使用说明
 	上面加上NODE_ENV为了让app.js辨认当前是什么环境用的。不加它可能就不知道哦？
 
 一些注意点
+------
 有可能你需要使用unix下的crontab（定时任务）
 这个时候需要注意配置好环境变量。
 SHELL=/bin/sh
