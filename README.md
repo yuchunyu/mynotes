@@ -23,6 +23,10 @@ Git
     
 	git常用命令 readToGit.md
 
+Forever
+-------
+	forever资料 readToForever.md
+
 Html5
 -------
 
