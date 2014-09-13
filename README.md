@@ -69,3 +69,5 @@ else
 -------
 	
 	http://runjs.cn/	-->一个在线编辑、展示、分享、交流你的 JavaScript 代码的平台
+	http://developer.baidu.com/map/index.php?title=jspopular   LBS
+
